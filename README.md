@@ -7,3 +7,6 @@ longestCommonPrefix: This method takes a list of strings as input and returns th
 
 ## 2. two sum:
 It finds two numbers in a list (nums) whose sum equals a given target. It iterates through the list twice, comparing each pair of numbers. If a pair adds up to the target, it returns their indices.
+
+## 3. palindrome number:
+It converts the integer to a string, then, it iterates through the first half of the string and compares each character with its corresponding one from the second half, if any pair doesn't match, it returns False; otherwise, it returns True.
